@@ -1,7 +1,7 @@
-const saludo = () =>{
-    alert("Hola amigos de git");
+const saludo = (nombre) =>{
+    alert(`Hola ${nombre}!`);
 }
 
 document.getElementById("btn1").addEventListener("click", () => {
-    saludo();
+    saludo("Mauro");
 })
